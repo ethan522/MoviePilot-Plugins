@@ -31,11 +31,11 @@ class DynamicWeChat(_PluginBase):
     # 插件图标
     plugin_icon = "Wecom_A.png"
     # 插件版本
-    plugin_version = "1.7.2"
+    plugin_version = "1.7.3"
     # 插件作者
-    plugin_author = "RamenRa"
+    plugin_author = "ethan522"
     # 作者主页
-    author_url = "https://github.com/RamenRa/MoviePilot-Plugins"
+    author_url = "https://github.com/ethan522/MoviePilot-Plugins"
     # 插件配置项ID前缀
     plugin_config_prefix = "dynamicwechat_"
     # 加载顺序
@@ -1293,7 +1293,7 @@ class DynamicWeChat(_PluginBase):
                 "cmd": "/push_qr",
                 "event": EventType.PluginAction,
                 "desc": "立即推送登录二维码",
-                "category": "",
+                "category": "站点",
                 "data": {
                     "action": "push_qrcode"
                 }
