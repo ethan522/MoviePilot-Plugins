@@ -1292,7 +1292,7 @@ class DynamicWeChat(_PluginBase):
             {
                 "cmd": "/push_qr",
                 "event": EventType.PluginAction,
-                "desc": "立即推送登录二维码",
+                "desc": "推送登录QR",
                 "category": "站点",
                 "data": {
                     "action": "push_qrcode"
