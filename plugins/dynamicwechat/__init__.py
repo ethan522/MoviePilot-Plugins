@@ -25,13 +25,13 @@ from app.plugins.dynamicwechat.helper import PyCookieCloud, MySender, IpLocation
 
 class DynamicWeChat(_PluginBase):
     # 插件名称
-    plugin_name = "动态企微可信IP"
+    plugin_name = "动态微信IP"
     # 插件描述
-    plugin_desc = "修改企微应用可信IP,详细说明查看'作者主页',支持第三方通知。验证码以？结尾发送到企业微信应用"
+    plugin_desc = "修改企业微信应用可信IP,详细说明查看'作者主页',支持第三方通知。验证码以？结尾发送到企业微信应用"
     # 插件图标
     plugin_icon = "Wecom_A.png"
     # 插件版本
-    plugin_version = "1.7.3"
+    plugin_version = "1.0.0"
     # 插件作者
     plugin_author = "ethan522"
     # 作者主页
