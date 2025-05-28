@@ -23,7 +23,7 @@ from app.schemas.types import EventType
 from app.plugins.dynamicwechat.helper import PyCookieCloud, MySender, IpLocationParser
 
 
-class DynamicWeChat(_PluginBase):
+class DynamicWeChatIP(_PluginBase):
     # 插件名称
     plugin_name = "动态微信IP"
     # 插件描述
